@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Coccinella-Labs/release-notes/main/.github/assets/thumbnail.png" alt="release-notes" width="100%">
+</p>
+
 # release-notes
 
 [![Release](https://img.shields.io/github/v/release/libnudget/release-notes?logo=github&label=latest)](https://github.com/libnudget/release-notes/releases)
