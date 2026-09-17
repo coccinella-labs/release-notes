@@ -4,7 +4,7 @@
 
 # release-notes
 
-[![Release](https://img.shields.io/github/v/release/libnudget/release-notes?logo=github&label=latest)](https://github.com/libnudget/release-notes/releases)
+[![Release](https://img.shields.io/github/v/release/coccinella-labs/release-notes?logo=github&label=latest)](https://github.com/coccinella-labs/release-notes/releases)
 
 A GitHub Action that turns merged pull requests into clean, grouped
 release notes.
@@ -16,7 +16,7 @@ GitHub release.
 ## Usage
 
 ```yaml
-- uses: libnudget/release-notes@main
+- uses: coccinella-labs/release-notes@main
   with:
     token: ${{ secrets.GITHUB_TOKEN }}
 ```
@@ -26,7 +26,7 @@ This compares against the latest tag and writes `RELEASE_NOTES.md`.
 To control the range explicitly:
 
 ```yaml
-- uses: libnudget/release-notes@main
+- uses: coccinella-labs/release-notes@main
   with:
     token: ${{ secrets.GITHUB_TOKEN }}
     from-tag: v0.1.0
