@@ -1,6 +1,6 @@
 name: "release-notes"
 description: "Generate grouped release notes from merged pull requests."
-author: "libnudget"
+author: "coccinella-labs"
 branding:
   icon: "file-text"
   color: "green"
